@@ -3,7 +3,7 @@
 #include <fstream>
 
 
-void naiveSearch(std::string pat, std::string txt)
+void naiveSearch(const std::string &pat, const std::string &txt)
 {
 
     unsigned int count = 0;
@@ -28,12 +28,12 @@ void naiveSearch(std::string pat, std::string txt)
     std::cout << "Number of comparisons: " << count << std::endl;
 }
 
-void preKMP(std::string pat, int f[])
+void preKMP(const std::string &pat, int f[])
 {
     
 }
 
-void kmpSearch(std::string pat, std::string txt)
+void kmpSearch(const std::string &pat, const std::string &txt)
 {
 
 }
